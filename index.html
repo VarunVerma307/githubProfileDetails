@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github profile details</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Smooch&family=Zen+Loop&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="full">
+   <div id="img">
+    <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="" srcset="">
+</div>
+   <div class="body">
+    <h1 id="title">Github Profile details</h1>
+   
+    <input type="text" id="username" placeholder="Enter a valid Github username">
+    <button type="submit" id="button" onclick="show()">Get details</button>
+   </div>
+   <div id="display">
+      <div class="css">
+      LOGIN:<h3 id="login"></h3>
+      LOCATION:<h3 id="location"></h3>
+      FOLLOWERS:<h3 id="followers"></h3>
+      FOLLOWING:<h3 id="following"></h3>
+      USER ID:<h3 id="id"></h3>
+   </div>
+   </div>
+</div>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.0.0-alpha.1/axios.min.js" integrity="sha512-xIPqqrfvUAc/Cspuj7Bq0UtHNo/5qkdyngx6Vwt+tmbvTLDszzXM0G6c91LXmGrRx8KEPulT+AfOOez+TeVylg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+   <script src="index.js"></script>
+</body>
+</html>
